@@ -7,9 +7,9 @@ agent underneath — Claude Code, Codex, Gemini, your own. Tasks live in your
 repo, run on your machine, and answer to no account, plan, or cap.
 
 This package installs a prebuilt binary (macOS and Linux, x64 and arm64),
-fetched from the matching [GitHub release](https://github.com/soulmachine/openroutine/releases)
+fetched from the matching [GitHub release](https://github.com/openswe/openroutine/releases)
 at install time. The same binary ships through Homebrew and PyPI —
-[tap this repo](https://github.com/soulmachine/openroutine#install) for
+[tap this repo](https://github.com/openswe/openroutine#install) for
 `brew install openroutine`, or `pip install openroutine` — and
 `cargo install openroutine` builds it from source.
 
@@ -21,4 +21,4 @@ openroutine serve               # run the scheduler in the foreground
 ```
 
 Docs, the full CLI, and the REST API: [openroutine.dev](https://openroutine.dev) ·
-[GitHub](https://github.com/soulmachine/openroutine)
+[GitHub](https://github.com/openswe/openroutine)

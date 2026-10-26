@@ -30,7 +30,7 @@ async function main() {
   if (!target) fail(`no prebuilt binary for ${key}`);
 
   const asset = `openroutine-v${version}-${target}.tar.gz`;
-  const url = `https://github.com/soulmachine/openroutine/releases/download/v${version}/${asset}`;
+  const url = `https://github.com/openswe/openroutine/releases/download/v${version}/${asset}`;
 
   const res = await fetch(url);
   if (!res.ok) fail(`download failed: ${res.status} ${res.statusText} for ${url}`);

@@ -12,7 +12,7 @@ plist or `crontab` entry.
 
 Read the authoritative reference first — both stay current on their own:
 
-- `~/github.com/soulmachine/openroutine/README.md` — the task file format, the CLI, what
+- `~/github.com/openswe/openroutine/README.md` — the task file format, the CLI, what
   `reload` does after an edit, the REST fire endpoint, and the login-shell `PATH`
   requirement that agent CLIs trip over.
 - `openroutine help <command>` — every flag.

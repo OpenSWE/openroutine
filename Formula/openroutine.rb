@@ -10,22 +10,22 @@ class Openroutine < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/soulmachine/openroutine/releases/download/v1.0.5/openroutine-v1.0.5-aarch64-apple-darwin.tar.gz"
+      url "https://github.com/openswe/openroutine/releases/download/v1.0.5/openroutine-v1.0.5-aarch64-apple-darwin.tar.gz"
       sha256 "694bdff13c415b09de4e7f39157768e485fbd0ae470b179a17717a6b9c2b7f8e"
     end
     on_intel do
-      url "https://github.com/soulmachine/openroutine/releases/download/v1.0.5/openroutine-v1.0.5-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/openswe/openroutine/releases/download/v1.0.5/openroutine-v1.0.5-x86_64-apple-darwin.tar.gz"
       sha256 "31fcc38a6eeaf2b7f31a98e6ae359d85f28fdb4bd0dcbea3eb84ba789408c91a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/soulmachine/openroutine/releases/download/v1.0.5/openroutine-v1.0.5-aarch64-unknown-linux-gnu.tar.gz"
+      url "https://github.com/openswe/openroutine/releases/download/v1.0.5/openroutine-v1.0.5-aarch64-unknown-linux-gnu.tar.gz"
       sha256 "9e732fe1654282d3aabb4f7e4954992dbadf19db10efdcddcf8b8a6b3f69df58"
     end
     on_intel do
-      url "https://github.com/soulmachine/openroutine/releases/download/v1.0.5/openroutine-v1.0.5-x86_64-unknown-linux-gnu.tar.gz"
+      url "https://github.com/openswe/openroutine/releases/download/v1.0.5/openroutine-v1.0.5-x86_64-unknown-linux-gnu.tar.gz"
       sha256 "927449e34f83a530f94fa177c39fd0ae2ea202686af770fa5cbda17932cca2d0"
     end
   end
