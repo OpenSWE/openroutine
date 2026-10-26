@@ -5,28 +5,28 @@
 class Openroutine < Formula
   desc "Your AI agents' crontab, as markdown"
   homepage "https://openroutine.dev"
-  version "1.0.6"
+  version "1.0.7"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/openswe/openroutine/releases/download/v1.0.6/openroutine-v1.0.6-aarch64-apple-darwin.tar.gz"
-      sha256 "5f7348afa6fa3d5b11eda2c795dbb4e0847b6ce50e4d6408381a6f5fa13a486c"
+      url "https://github.com/openswe/openroutine/releases/download/v1.0.7/openroutine-v1.0.7-aarch64-apple-darwin.tar.gz"
+      sha256 "38883efa6a107510a0e606ccd04eaef685a9a92aa42bf155626d4c4a99f114f1"
     end
     on_intel do
-      url "https://github.com/openswe/openroutine/releases/download/v1.0.6/openroutine-v1.0.6-x86_64-apple-darwin.tar.gz"
-      sha256 "3a7625120775398415ec26539d14ef238b2340d1e094b4353dfa53d0dc1281c3"
+      url "https://github.com/openswe/openroutine/releases/download/v1.0.7/openroutine-v1.0.7-x86_64-apple-darwin.tar.gz"
+      sha256 "bcf657e5d4a4cb84d2fcac2ce71806b13efa51296be2b4cc6b9b74bb88e5ca5f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/openswe/openroutine/releases/download/v1.0.6/openroutine-v1.0.6-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b01c133cf280477fdbbe01c94d979a145e4ef9c2f1d1938d743fa2cacb4bbe74"
+      url "https://github.com/openswe/openroutine/releases/download/v1.0.7/openroutine-v1.0.7-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "16253b57d7bb471e3a7ada9ab2c88043bc1596354dc4d426796848ba589e458a"
     end
     on_intel do
-      url "https://github.com/openswe/openroutine/releases/download/v1.0.6/openroutine-v1.0.6-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "eeebcb000d0c65eb42ec319943e10d1f415f6b68aa717ead935aebbb71fa42bd"
+      url "https://github.com/openswe/openroutine/releases/download/v1.0.7/openroutine-v1.0.7-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3f7f28b1c2b7137fe8a11c345dc13c386b366809214df8e4dd813c8abc1509dc"
     end
   end
 
