@@ -28,7 +28,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://openroutine.dev"
-Repository = "https://github.com/openswe/openroutine"
+Repository = "https://github.com/OpenSWE/openroutine"
 
 [tool.maturin]
 # Auto-detection would pick this today, but only because the lib target is a

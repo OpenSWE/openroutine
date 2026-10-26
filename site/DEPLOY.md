@@ -6,7 +6,7 @@
 (Workers Static Assets). The apex domain and its certificate were attached automatically by the
 `custom_domain` route in `wrangler.toml`.
 
-Deploys are **automatic**: Workers Builds is connected to `openswe/openroutine`, and a push
+Deploys are **automatic**: Workers Builds is connected to `OpenSWE/openroutine`, and a push
 to `main` that touches `site/` deploys the site. Nothing is needed by hand. The manual path
 still works if you want it — `cd site && npx wrangler deploy`.
 

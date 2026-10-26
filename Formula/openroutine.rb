@@ -10,22 +10,22 @@ class Openroutine < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/openswe/openroutine/releases/download/v1.0.7/openroutine-v1.0.7-aarch64-apple-darwin.tar.gz"
+      url "https://github.com/OpenSWE/openroutine/releases/download/v1.0.7/openroutine-v1.0.7-aarch64-apple-darwin.tar.gz"
       sha256 "38883efa6a107510a0e606ccd04eaef685a9a92aa42bf155626d4c4a99f114f1"
     end
     on_intel do
-      url "https://github.com/openswe/openroutine/releases/download/v1.0.7/openroutine-v1.0.7-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/OpenSWE/openroutine/releases/download/v1.0.7/openroutine-v1.0.7-x86_64-apple-darwin.tar.gz"
       sha256 "bcf657e5d4a4cb84d2fcac2ce71806b13efa51296be2b4cc6b9b74bb88e5ca5f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/openswe/openroutine/releases/download/v1.0.7/openroutine-v1.0.7-aarch64-unknown-linux-gnu.tar.gz"
+      url "https://github.com/OpenSWE/openroutine/releases/download/v1.0.7/openroutine-v1.0.7-aarch64-unknown-linux-gnu.tar.gz"
       sha256 "16253b57d7bb471e3a7ada9ab2c88043bc1596354dc4d426796848ba589e458a"
     end
     on_intel do
-      url "https://github.com/openswe/openroutine/releases/download/v1.0.7/openroutine-v1.0.7-x86_64-unknown-linux-gnu.tar.gz"
+      url "https://github.com/OpenSWE/openroutine/releases/download/v1.0.7/openroutine-v1.0.7-x86_64-unknown-linux-gnu.tar.gz"
       sha256 "3f7f28b1c2b7137fe8a11c345dc13c386b366809214df8e4dd813c8abc1509dc"
     end
   end
