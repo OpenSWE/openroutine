@@ -27,14 +27,25 @@ install flow. This is the configuration of record:
 
 | Setting | Value |
 | :-- | :-- |
-| Git repository | `openswe/openroutine` |
+| Git repository | `OpenSWE/openroutine` |
 | Root directory | `site` |
 | Build command | *(none)* |
 | Deploy command | `npx wrangler deploy` |
-| Version command | `npx wrangler versions upload` |
+| Version command (*Previews Base* tab: *Preview command*) | `npx wrangler versions upload` |
 | Production branch | `main` |
 | Builds for non-production branches | **on** |
 | Build watch paths → include | `site/*` |
+
+The dashboard now splits these into a **Production** and a **Previews Base** tab, each with its
+own root directory and watch paths; set both. The Cloudflare GitHub App is installed on the
+OpenSWE org, for this repo only.
+
+Reconnecting resets both tabs to the defaults (root `/`, include `*`, preview command
+`npx wrangler preview`), so check the table again after any reconnect. That happened on
+2026-10-26, when the repo moved from `soulmachine/openroutine` to OpenSWE: the old connection
+broke, and the org's install only showed up in the *Git account* list after opening
+`dash.cloudflare.com/pages/installations/github?installation_id=<id>&setup_action=install&state=<state>`,
+with `<state>` taken from the *New GitHub connection* link.
 
 There is no build step — `public/` is already the finished site. The root directory is what
 makes `wrangler.toml` findable; without it the deploy runs at the repo root and fails.
