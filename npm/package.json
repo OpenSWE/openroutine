@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openswe/openroutine.git"
+    "url": "git+https://github.com/OpenSWE/openroutine.git"
   },
   "homepage": "https://openroutine.dev",
   "keywords": [
